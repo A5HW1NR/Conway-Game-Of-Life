@@ -11,8 +11,14 @@ The next generation is dictated by the rules:
           4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
           5. Treat out of bounds neighbors as dead.
  
- Example INPUT : 
+ Example Execution : 
  
           0         1         0                             1         1         1
           1         1         1         -------->           1         0         1
           0         1         0                             1         1         1
+
+
+          0         1         1         0                   0         1         1         0
+          1         0         0         1         ----->    1         0         0         1
+          0         1         1         0                   0         1         1         0
+          0         0         0         0                   0         0         0         0         
