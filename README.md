@@ -10,3 +10,9 @@ The next generation is dictated by the rules:
           3. Any live cell with moe than three live neighbors dies, as if by over-population.
           4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
           5. Treat out of bounds neighbors as dead.
+ 
+ Example INPUT : 
+ 
+          0         1         0                             1         1         1
+          1         1         1         -------->           1         0         1
+          0         1         0                             1         1         1
